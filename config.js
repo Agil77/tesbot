@@ -1,11 +1,11 @@
-global.you = ['6281251549899'] 
+global.you = ['6283144700823'] 
 //Developer Bot
 global.gc = 'https://chat.whatsapp.com/I5Kz3Abawc5DqyBSDoYvKB'
-global.rowner = ['6281251549899'],['6281348106274'] // Real Owner Bot
-global.owner = ['6281251549899'],['6281348106274'] // Owner Bot
-global.police = ['6281251549899'],['6281348106274'] // Police Bot
-global.mods = ['6281251549899'],['6281348106274']  // Want some help?
-global.prems = ['6281251549899'],['6281348106274'] // Premium user has unlimited limit
+global.rowner = ['6283144700823'],['6283144700823'] // Real Owner Bot
+global.owner = ['6283144700823'],['6283144700823] // Owner Bot
+global.police = ['6283144700823'],['6283144700823'] // Police Bot
+global.mods = ['6283144700823'],['6283144700823']  // Want some help?
+global.prems = ['6283144700823'],['6283144700823'] // Premium user has unlimited limit
 global.fotonya1 = 'https://telegra.ph/file/00ca947f49354f6c108da.jpg' //ini kalo mau di ganti silahkan ganti aja
 global.fotonya2 = 'https://telegra.ph/file/00ca947f49354f6c108da.jpg' //gw lupa nih foto apa aja:v
 global.fotonya3 = 'https://telegra.ph/file/00ca947f49354f6c108da.jpg' //ini juga ganti
@@ -15,7 +15,7 @@ global.fotonya6 = 'https://telegra.ph/file/00ca947f49354f6c108da.jpg' //ini gant
 global.fotonya7 = 'https://telegra.ph/file/00ca947f49354f6c108da.jpg'
 global.instagram = 'https://instagram.com/danibotz_official'
 
-global.helper = ['6281251549899'],['6281348106274']
+global.helper = ['6283144700823'],['6283144700823']
 global.APIs = { // API Prefix
   // name: 'https://website'
   amel: 'https://melcanz.com',
@@ -83,9 +83,9 @@ global.fsizedoc = '564588643' // default 10TB
 global.fpagedoc = '444'
 
 // Sticker WM
-global.packname = 'DaniXd'
-global.author = 'DaniXd'
-global.wm = '© DaniXd'
+global.packname = 'itzxyw'
+global.author = 'Bang AL'
+global.wm = '© itzxyw'
 
 global.fla = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=sketch-name&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&fillTextType=1&fillTextPattern=Warning!&text='
 
