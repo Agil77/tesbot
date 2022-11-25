@@ -11,5 +11,4 @@ handler.command = /^(loli)$/i
 handler.tags = ['anime']
 handler.help = ['loli']
 handler.limit = true
-handler.premium = true
 module.exports = handler
