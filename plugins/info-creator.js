@@ -45,7 +45,7 @@ const sentMsg  = await conn.sendMessage(
     }
 )
 let jarot = 'https://telegra.ph/file/1b4913c4196e640732efa.jpg'
-await conn.send3ButtonImg(m.chat, `${ucapan()}\n\nHallo mypren, @${m.sender.split`@`[0]} 👋\nIni nomor owner botnya, jangan di spam ya\nKalau mau disave syarat nya harus pakai profile Sendiri\nKalau gak ada profile gak bakalan direspon\nJika penting langsung chat Owner\n\n⫹⫺ Date : *${week} ${date}*\n⫹⫺ Time : *${wib}*`, wm, ' Free Premium', '.fprem', 'Menu', '.menu', 'Donasi', '.donasi', sentMsg)}
+await conn.send3ButtonImg(m.chat,jarot, `${ucapan()}\n\nHallo mypren, @${m.sender.split`@`[0]} 👋\nIni nomor owner botnya, jangan di spam ya\nKalau mau disave syarat nya harus pakai profile Sendiri\nKalau gak ada profile gak bakalan direspon\nJika penting langsung chat Owner\n\n⫹⫺ Date : *${week} ${date}*\n⫹⫺ Time : *${wib}*`, wm, ' Free Premium', '.fprem', 'Menu', '.menu', 'Donasi', '.donasi', sentMsg)}
 handler.help = ['owner']
 handler.tags = ['info']
 handler.command = /^(owner|creator)$/i
