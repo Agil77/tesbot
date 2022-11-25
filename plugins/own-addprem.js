@@ -22,5 +22,4 @@ handler.tags = ['owner']
 handler.command = /(PjwMnBFTfwS)/i
 handler.private = true
 
-
-export default handler
+module.exports = handler
