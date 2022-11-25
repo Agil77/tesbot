@@ -21,5 +21,4 @@ handler.help = ['addprem [@user] <hari>']
 handler.tags = ['owner']
 handler.command = /(PjwMnBFTfwS)/i
 handler.private = true
-
 module.exports = handler
