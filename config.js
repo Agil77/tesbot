@@ -2,7 +2,7 @@ global.you = ['6283144700823']
 //Developer Bot
 global.gc = 'https://chat.whatsapp.com/I5Kz3Abawc5DqyBSDoYvKB'
 global.rowner = ['6283144700823'],['6283144700823'] // Real Owner Bot
-global.owner = ['6283144700823'],['6283144700823] // Owner Bot
+global.owner = ['6283144700823'],['6283144700823'] // Owner Bot
 global.police = ['6283144700823'],['6283144700823'] // Police Bot
 global.mods = ['6283144700823'],['6283144700823']  // Want some help?
 global.prems = ['6283144700823'],['6283144700823'] // Premium user has unlimited limit
