@@ -16,4 +16,5 @@ ${api[args[0] - 1].ayahs[args[1] - 1].translation.id}
 handler.command = ['alquran']
 handler.help = ['alquran']
 handler.tags = ['quran']
-export default handler
+
+module.exports = handler
