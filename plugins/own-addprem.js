@@ -2,6 +2,10 @@ let handler = async (m, { conn, text, usedPrefix, command }) => {
     let who
     if (m.isGroup) who = m.mentionedJid[0] ? m.mentionedJid[0] : m.quoted ? m.quoted.sender : false
     else who = m.chat
+     var hl = []
+  hl[0] = text.split('|')[0]
+  hl[0] = no(hl[0]) + "@s.whatsapp.net"
+  hl[1] = text.split('|')[1]
     let user = db.data.users[who]
     if (!who) throw `tag atau balas pesan yang mau dijadikan premium!`
      let txt = text.replace('@' + who.split`@`[1], '').trim()
