@@ -24,10 +24,9 @@ module.exports = handler*/
 
 let { MessageType } = require('@adiwajshing/baileys')
 let handler = async (m, { conn, text, usedPrefix }) => {
-  function no(number){
-    return number.replace(/\s/g,'').replace(/([@+-])/g,'')
-  }
-
+  let who
+    if (m.isGroup) who = m.mentionedJid[0] ? m.mentionedJid[0] : m.quoted ? m.quoted.sender : text
+     else who = m.chat
   var hl = []
   hl[0] = text.split('|')[0]
   hl[0] = no(hl[0]) + "@s.whatsapp.net"
