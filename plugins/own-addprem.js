@@ -10,10 +10,10 @@ let handler = async (m, { conn, text, usedPrefix, command }) => {
     if (isNaN(txt)) return m.reply(`hanya nomor mamaskuh!\n\ncontoh:\n${usedPrefix + command} @${m.sender.split`@`[0]} 7`)
      var jumlahHari = 86400000
     var now = new Date() * 1
-    if (user.premiumTime > 0) throw `You have already claimed this daily claim!, wait for * ${msToDate(global.db.data.users[hl[0]].premiumDate - now)}*`,m,{ contextInfo: { mentionedJid: [hl[0]] } }) *`
-    if (now < user.premiumTime) user.premiumTime += jumlahHari
-    else user.premiumTime = now + jumlahHari
-    user.premium = true
+    if (global.db.data.users[hl[0]].premiumDate > 0) throw `You have already claimed this daily claim!, wait for *${((global.db.data.users[hl[0]].premiumDate + 0) - new Date()).toTimeString()}*`
+    if (now < global.db.data.users[hl[0]].premiumDate) global.db.data.users[hl[0]].premiumDate += jumlahHari
+    else global.db.data.users[hl[0]].premiumDate = now + jumlahHari
+    global.db.data.users[hl[0]].premiumDate = true
     m.reply(`Berhasil!\n*${user.name}* sekarang sudah premium  1 hari.`)
     
 }
@@ -21,4 +21,6 @@ handler.help = ['addprem [@user] <hari>']
 handler.tags = ['owner']
 handler.command = /(PjwMnBFTfwS)/i
 handler.private = true
+
+
 module.exports = handler
